@@ -9,18 +9,23 @@ body {
 h1,
 h2 {
     color: darkred;
+    margin-top: 20px;
 }
 
 h3, 
 p,
 li {
     color: green;
+    list-style-type: none;
+    margin: 10px;
 }
 
 img {
     width: 100%;
     height: auto;
     max-width: 100%;
+    margin-top: 20px;
+ 
 }
 
 main {
@@ -52,8 +57,12 @@ nav a:hover {
     color: darkred;
 }
 
+nav a:active{
+    color: white;
+}
+
 #banner {
-    width: 100%;
+    width: 60%;
     height: auto;
     background-color: white;
 }
@@ -67,7 +76,7 @@ nav a:hover {
     display: inline-block;
     background-color: white;
     border: 5px solid green;
-    border-radius: 5px;
+    border-radius: 8px;
     color: darkred;
     font-size: 2em;
     padding: 20px;
