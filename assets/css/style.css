@@ -44,6 +44,7 @@ nav ul {
 
 nav li {
     display: inline;
+    
 }
 
 nav a {
@@ -55,10 +56,10 @@ nav a {
 
 nav a:hover {
     color: darkred;
+    background-color: white;
 }
-
-nav a:active{
-    color: white;
+nav a::selection {
+    background-color: white;
 }
 
 #banner {
